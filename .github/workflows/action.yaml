@@ -1,8 +1,5 @@
  
 on:
-    pull_request:
-     branches: [ master ]
-     types: [opened, labeled, unlabeled, edited, synchronize]
     pull_request_target:
      branches: [ master ]
      types: [opened, labeled, unlabeled, edited, synchronize]
