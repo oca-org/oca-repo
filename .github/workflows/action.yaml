@@ -13,7 +13,7 @@ jobs:
     name: Check PR has valid labels
     steps:
     - name: Check PR has valid labels
-      uses: amine-arb-2019/check-pr-label@v1.8
+      uses: amine-arb-2019/check-pr-label@v1.9
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
         valid-labels: 'OCA signed'
