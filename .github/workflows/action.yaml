@@ -7,10 +7,10 @@ on:
 jobs:
   check_pr_labels:
     runs-on: ubuntu-latest
-    name: Check PR has valid labels
+    name: Check PR has valid OCAs
     steps:
-    - name: Check PR has valid labels
-      uses: amine-arb-2019/check-pr-label@v1.13
+    - name: Check PR has valid OCAs
+      uses: yelabbas/check-oca
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
         valid-labels: 'OCA signed'
