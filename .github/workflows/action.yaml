@@ -13,5 +13,4 @@ jobs:
       uses: yelabbas/check-oca@v1.15
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
-        valid-labels: 'OCA signed'
         pull-request-number: '${{ github.event.pull_request.number }}'
