@@ -10,7 +10,7 @@ jobs:
     name: Check PR has valid OCAs
     steps:
     - name: Check PR has valid OCAs
-      uses: yelabbas/check-oca
+      uses: yelabbas/check-oca@v1.15
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
         valid-labels: 'OCA signed'
