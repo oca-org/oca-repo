@@ -14,3 +14,12 @@ jobs:
       with:
         github-token: "${{ secrets.GITHUB_TOKEN }}"
         pull-request-number: '${{ github.event.pull_request.number }}'
+        body: |
+          |
+             Oracle requires that contributors to all of its open-source projects sign the Oracle Contributor Agreement (OCA).
+             The following authors of this PR have not signed an OCA:
+
+             ?1
+
+             In order to sign an OCA, you need to create an Oracle account and sign the application within [Oracle's Contributor Agreement Application](?0).
+             In the OCA application, please provide your GitHub user name. By doing so, this PR will be automatically updated if the OCA was signed by both parties.
